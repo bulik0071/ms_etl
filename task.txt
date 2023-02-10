@@ -1,0 +1,33 @@
+https://drive.google.com/drive/folders/1JwxR8w7_tI700OTl1t8N71kupScyMVlg
+Celem zadania jest napisanie aplikacji, która: 
+ 
+wczyta dane z plików zawierających dane dotyczące artystów, ich utworów oraz odsłuchań, 
+przekształci dane w taki sposób by można było je umieścić w bazie danych (SQlite), 
+wypisze na standardowe wyjście informacje, takie jak: artysta z największą liczbą odsłuchań, 5 najpopularniejszych utworów oraz czas przetwarzania danych. 
+Źródło danych: 
+ 
+plik unique_tracks.txt - zawiera dane w następującym formacie: identyfikator wykonania<SEP>identyfikator utworu<SEP>nazwa artysty<SEP>tytuł utworu<LF> i można go pobrać z https://softmaz.xyz/wsb/rsc/unique_tracks.zip 
+plik triplets_sample_20p.txt - zawiera dane w następującym formacie: identyfikator użytkownika<SEP>identyfikator utworu<SEP>datę odsłuchania<LF> i można pobrać go z https://softmaz.xyz/wsb/rsc/triplets_sample_20p.zip. 
+Pliki można również pobrać pod adresem: https://drive.google.com/drive/folders/1JwxR8w7_tI700OTl1t8N71kupScyMVlg?usp=share_link 
+ 
+Ocenie będzie podlegała również jakość kodu i jego zgodność ze standardem PEP8. Rozwiązanie należy przesłać w jednym pliku w formacie zip (nazwa wg. schematu imię_nazwisko_indeks.zip). 
+ 
+Szczegółowe wymagania dotyczące zadania „Ranking najpopularniejszych track'ów (proces ETL)” 
+ 
+1. Uruchomienie programu z podaniem ścieżki do bazy danych i wczytywanych plików jako parametry uruchomienia programu z wykorzystaniem modułu ArgumentParser. Pobranie również liczby wczytywanych odsłuchań z pliku triplets_sample_20p.txt w formie parametru uruchomienia programu (należy przyjąć wartość zero jako bez ograniczeń). 
+ 
+2. Należy użyć bazy SQLite 
+ 
+3. Program musi działać na oryginalnych plikach. 
+ 
+4. Program musi wyświetlić nazwę artysty z największą liczbą odsłuchań oraz liczbę tych odsłuchań. 
+ 
+5. Program musi wyświetlić tytuły 5 utworów z największą liczbą odsłuchań oraz liczbę tych odsłuchań. 
+ 
+6. Należy wykonać i przesłać ZRZUT EKRANU  o nazwie zrzut_pelny.png z uruchomienia programu w wierszu poleceń/terminalu dla pełnych danych, na którym widoczny jest sposób uruchomienia programu oraz wygenerowane wyniki podczas działania programu (plik zrzutu należy umieścić w pliku zip wraz z programem).  
+ 
+7. Należy wykonać i przesłać ZRZUT EKRANU zrzut_1000.png z uruchomienia programu w wierszu poleceń/terminalu dla 1000 pierwszych odłuchań z pliku triplets_sample_20p.txt, na którym widoczny jest sposób uruchomienia programu oraz wygenerowane wyniki podczas działania programu (plik zrzutu należy umieścić w pliku zip wraz z programem).  
+ 
+8. Program powinien działać w możliwie najkrótszym czasie oraz zużywać jak najmniej zasobów komputera. 
+ 
+Uwaga: plików unique_tracks.txt, triplets_sample_20p.txt nie przesyłamy
